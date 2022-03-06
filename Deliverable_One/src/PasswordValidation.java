@@ -10,8 +10,7 @@ public class PasswordValidation {
 		Pattern p = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{8,12}(?=.*[!]).+$");
 		Matcher m = p.matcher(pwd);
 		boolean b = m.matches();
-		
-		System.out.println(b);
+		//System.out.println(b);
 		return b;
 	}
 
